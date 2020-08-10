@@ -10,8 +10,6 @@ namespace AnoBisexto
     {
         static void Main(string[] args)
         {
-            int resultado;
-
             var ano = int.Parse(args[0]);
 
             bool bisexto = AnoUtil.VerificarseAnoEhBisexto(ano);
