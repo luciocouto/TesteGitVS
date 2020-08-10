@@ -16,9 +16,7 @@ namespace AnoBisexto
 
             bool bisexto = AnoUtil.VerificarseAnoEhBisexto(ano);
 
-            string mensagemResultado = bisexto ? " é bisexto." : " não é bisexto.";
-
-            string mensagem = $"o Ano {args[0]} {mensagemResultado} ";
+            string mensagem = new Mensagem().CriarMensagemAnoBisexto(ano, bisexto);
 
             Console.WriteLine(mensagem);
             Console.ReadKey();
