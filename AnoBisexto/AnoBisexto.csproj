@@ -51,6 +51,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="readme.md" />
+    <None Include="Readme2.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Versao.txt" />

@@ -6,3 +6,4 @@ Linha da TesteBranchNova
 Linha criada no repositório Git
 Linha criada no repositório Git2
 Teste de Pull Request
+Desenvolvendo nova linha
